@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crimi's Converter</title>
+    <link rel="icon" href="Images/logo.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body class="container-fluid">
+    <div class="headerSection mb-5">
+        <h1 class="brandName">Crimi's Converts</h1>
+
+        <h3 class="contentTitle">KiloMeters to Miles</h3>
+        <hr class="col-6" />
+    </div>
+
+    <p class="aboutParagraph mt-4 mb-4">Today we're going to take a look at how to convert between kilometers and miles, and back again. We'll take you through some tips for how to manually calculate the figures in your head, plus we'll give you a converter so that you can check your answers.
+        Let's begin.</p>
+
+    <div class="aboutwideSection">
+        <div class="formulaSection col-md-6 col-12">
+            <p style="font-family: Abril Fatface; font-size: 25px" class="mt-2">Simple Formula :</p>
+            <p style="font-family: Monte carlo; font-size: 25px" class="mt-2"><b>Miles = (KiloMeters / 2) + (KiloMeters / 8)</b></p>
+        </div>
+
+        <div class="exampleSection col-md-6 col-12">
+            <h3 style="font-family: Abril Fatface">Simple Example :</h3>
+            <p>" You take the kilometre number, 144, and halve it; 72. Then take a quarter of your half, 18, and just add the two together.<br /> 72 + 18 = 90. That's your answer in miles. "</p>
+        </div>
+    </div>
+
+    <hr class="col-6 mb-4">
+
+    <div class="inputWideSection row col-md-12 mx-auto">
+        <div class="inputSection mb-5 col-md-6">
+            <h3 style="font-family: Abril Fatface">Converter :</h3>
+            <label for="#myput" style="font-family: cinzel;" class="mb-3">KiloMeters to Miles :</label>
+            <div class="form-group mb-3">
+                <input type="number" id="myput" min="0" required>
+                <p class="error__msg"></p>
+            </div>
+            <button id="submitBtn">submit</button>
+        </div>
+
+        <div class="resultSection col-md-6">
+            <h5 style="font-family: cinzel;">The Answer is :</h5>
+            <p id="demo" style="font-family: cinzel; font-weight: bold;"></p>
+        </div>
+    </div>
+
+    <div class="footerSection">
+        <p style="font-size: 10px;">Made with <img src="https://img.icons8.com/material-rounded/10/000000/like--v2.png" /> by Crimi | Coding with Crimi | Copyrights Reserved 2021</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
